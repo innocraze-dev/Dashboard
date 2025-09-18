@@ -16,7 +16,7 @@ export default function ManageCategoriesModal({ open, onClose, categories = [], 
             <div key={cat.id} className="p-3 border rounded bg-gray-50">
               <div className="flex justify-between items-center mb-2">
                 <div className="font-medium">{cat.name}</div>
-                {/* DELETE BUTTON */}
+                {}
                 <button
                   onClick={() => {
                     if(window.confirm(`Delete category "${cat.name}"?`)) {

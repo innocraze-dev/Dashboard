@@ -31,7 +31,7 @@ export default function AddWidgetPanel({ open, onClose, onAdd, categories = [] }
           <label className="block text-sm font-medium">Title</label>
           <input value={title} onChange={e=>setTitle(e.target.value)} className="w-full px-3 py-2 border rounded mb-3" />
 
-          <label className="block text-sm font-medium">Body</label>
+          <label className="block text-sm font-medium">Description</label>
           <textarea value={text} onChange={e=>setText(e.target.value)} rows={5} className="w-full px-3 py-2 border rounded mb-3" />
 
           <div className="mb-3">
